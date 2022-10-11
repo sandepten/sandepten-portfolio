@@ -12,7 +12,7 @@ const Banner: NextComponentType<NextPageContext, {}, Props> = (
 ) => {
   const [dropdown, setDropdown] = useRecoilState(dropDownState);
   return (
-    <div className="ml-8 font-Open-Sans sm:ml-12 lg:ml-16 xl:ml-[16vw]">
+    <div className="ml-8 font-Open-Sans sm:ml-12 lg:ml-16 xl:ml-[15vw] 2xl:ml-[12vw]">
       <div className="xl:hidden">
         {dropdown ? (
           <IconContext.Provider
@@ -45,7 +45,7 @@ const Banner: NextComponentType<NextPageContext, {}, Props> = (
         )}
       </div>
 
-      <div className="mt-[35vh] text-5xl font-bold text-white sm:mt-[30vh] sm:text-7xl lg:mt-[22vh] lg:text-8xl">
+      <div className="mt-[35vh] text-5xl font-bold text-white sm:mt-[30vh] sm:text-7xl lg:mt-[22vh] lg:text-8xl 2xl:mt-[25vh]">
         <p>Hi,</p>
         <p>
           I&apos;m{" "}

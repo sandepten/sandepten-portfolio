@@ -63,22 +63,24 @@ const Sidebar: NextComponentType = () => {
           </div>
         </div>
       ) : null}
-      <div className="fixed w-[11vw] top-0 left-0 text-white">
+      <div className="fixed w-[10vw] hidden xl:block top-0 left-0 text-white 2xl:w-[8vw]">
         <div className="font-Open-Sans">
-          <div className="flex flex-col items-center bg-black px-6 pt-10 pb-6">
+          <div className="flex flex-col items-center bg-black px-6 pt-5 pb-6">
             <p className="text-8xl font-bold text-purple-700">S</p>
             <p className="text-xl font-semibold">Sandeep</p>
-            <p className="mt-4 text-xs tracking-wider">Web Developer</p>
+            <p className="mt-4 text-xs tracking-tight 2xl:tracking-normal truncate">
+              Web Developer
+            </p>
           </div>
           <div className="h-[80vh] pt-[12vh] bg-[#181818]">
-            <ul className="flex flex-col items-center text-center text-gray-400 [&>*]:py-4 [&>*]:border-b [&>*]:cursor-pointer  [&>*]:border-gray-700/70">
+            <ul className="flex flex-col items-center text-center text-gray-400 [&>*]:py-4 [&>*]:2xl:w-[8vw] [&>*]:w-[10vw] [&>*]:border-b [&>*]:cursor-pointer  [&>*]:border-gray-700/70">
               <li className="border-t hover:text-purple-500">About</li>
               <li className="hover:text-purple-500">My Skills</li>
               <li className="hover:text-purple-500">Work</li>
               <li className="hover:text-purple-500">Blog</li>
               <li className="hover:text-purple-500">Contact</li>
             </ul>
-            <div className="flex items-center justify-center space-x-4 pt-[18vh]">
+            <div className="flex items-center justify-center space-x-4 pt-[12vh]">
               <a href="https://github.com/sandepten">
                 <IconContext.Provider
                   value={{
