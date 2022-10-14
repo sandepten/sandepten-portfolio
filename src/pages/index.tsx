@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import About from "../components/About";
 import Banner from "../components/Banner";
 import Sidebar from "../components/Sidebar";
+import Work from "../components/Work";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +15,11 @@ const Home: NextPage = () => {
       </Head>
       <div>
         <Sidebar />
-        <Banner />
+        <div className="h-[65vh] lg:h-[80vh]">
+          <Banner />
+        </div>
+        <Work />
+        <About />
       </div>
     </div>
   );
