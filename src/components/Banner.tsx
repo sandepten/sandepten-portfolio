@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { useRecoilState } from "recoil";
-import { dropDownState } from "../core/atoms/dropdownAtom";
+import { dropDownState } from "../core/atoms/atom";
 
 interface Props {}
 

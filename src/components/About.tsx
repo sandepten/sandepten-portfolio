@@ -12,23 +12,24 @@ const About: NextComponentType<NextPageContext, {}, Props> = (props: Props) => {
         <div className="mx-8 sm:mx-12 lg:mx-14 lg:flex lg:items-center lg:justify-between xl:mx-16">
           <div className="space-y-4 text-white lg:w-2/3">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, eos. Beatae hic, sapiente sunt quis animi eveniet
-              libero eligendi ipsa!
+              The Covid Lockdown changed the life of many people but for me it
+              gave a chance to get to know what I really love and that was Web
+              development and programming.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              nemo temporibus earum aut cupiditate doloribus, id quaerat itaque
-              accusantium architecto facilis consectetur praesentium doloremque
-              sed dolorem provident asperiores incidunt deserunt ea reiciendis
-              dolor? Non dolorum blanditiis reprehenderit itaque assumenda nam.
+              Since then, I have given most of my time to learn a lot of
+              essential skills required to become a full stack web developer. I
+              really love making complex and beautiful UI on the frontend &
+              Working with Multiple APIs, database integration and queries,
+              authentication systems on the backend. I have worked on multiple
+              projects on both the front & backend of the application.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              optio error minus repudiandae facilis voluptatibus.
+              Currently I am looking for new opportunities and if you want me to
+              work with you, contact me below!
             </p>
           </div>
-          <div className="mt-10 grid grid-cols-3 gap-3 text-center md:grid-cols-4 [&>*]:rounded-2xl">
+          <div className="mt-8 grid grid-cols-3 gap-3 text-center md:grid-cols-4 [&>*]:rounded-2xl">
             <span className="bg-gradient-to-r from-[#ffafbd] to-[#ffc3a0] py-1 px-2">
               Javascript
             </span>
